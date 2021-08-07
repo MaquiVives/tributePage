@@ -1,0 +1,50 @@
+#main {
+    background-color: rgb (232, 246, 243);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#title {
+    grid-column-start: 3;
+    grid-column-end: span 8;
+    font-family: 'WindSong', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+    letter-spacing: 5px;
+}
+
+#subtitle {
+    text-align: center;
+}
+
+#image {
+    grid-column-start: 2;
+    grid-column-end: span 10;
+    width: 900px;
+    margin: auto;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#tribute-info {
+    display: block;
+    justify-content: center;
+    margin: 40px 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 48rem) {
+    #image {
+        width: 80%;
+    }
+
+    #title {
+        width: 80%;
+    }
+}
