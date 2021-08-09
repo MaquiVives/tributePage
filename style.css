@@ -32,6 +32,13 @@
     text-align: center;
 }
 
+#img-div {
+    background-color: rgb(105, 105, 105);
+    color: white;
+    border-radius: 7px;
+    padding: 20px 10px;
+}
+
 #tribute-info {
     display: block;
     justify-content: center;
